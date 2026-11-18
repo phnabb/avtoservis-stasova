@@ -1,0 +1,54 @@
+/* variables.css — дизайн-токены Автотехцентра на Стасова, 2 */
+
+:root {
+    /* Цвета */
+    --color-bg: #111317;
+    --color-surface: #1A1D24;
+    --color-surface-2: #21252E;
+    --color-accent: #F59E0B;
+    --color-accent-hover: #FBBF24;
+    --color-text: #FFFFFF;
+    --color-text-muted: #9CA3AF;
+    --color-border: rgba(255, 255, 255, 0.08);
+    --color-error: #EF4444;
+
+    /* Шрифты */
+    --font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: clamp(1.35rem, 1rem + 1.5vw, 2rem);
+    --font-size-2xl: clamp(1.75rem, 1.1rem + 2.6vw, 3rem);
+    --font-size-3xl: clamp(2rem, 1.2rem + 3.4vw, 3.75rem);
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Отступы (масштаб через clamp) */
+    --space-2xs: clamp(0.25rem, 0.2rem + 0.2vw, 0.375rem);
+    --space-xs: clamp(0.5rem, 0.4rem + 0.4vw, 0.75rem);
+    --space-sm: clamp(0.75rem, 0.6rem + 0.6vw, 1rem);
+    --space-md: clamp(1rem, 0.8rem + 0.9vw, 1.5rem);
+    --space-lg: clamp(1.5rem, 1.1rem + 1.6vw, 2.5rem);
+    --space-xl: clamp(2rem, 1.4rem + 2.6vw, 4rem);
+    --space-2xl: clamp(3rem, 2rem + 4vw, 6rem);
+
+    /* Контейнер */
+    --container-max: 1200px;
+    --container-pad: clamp(1rem, 0.5rem + 2vw, 2rem);
+
+    /* Радиусы */
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-pill: 100px;
+
+    /* Тени */
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+    --shadow-accent: 0 8px 24px rgba(245, 158, 11, 0.25);
+
+    /* Анимации */
+    --transition: 0.2s ease;
+}
